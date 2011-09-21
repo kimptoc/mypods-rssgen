@@ -40,4 +40,12 @@ done
 
 cat ../scripts/my.rss.footer >> my.rss
 
+cat ../scripts/my.rss.header2 > my2.rss
+
+for PART in *dio2*.rss; do
+  cat $PART >> my2.rss
+done
+
+cat ../scripts/my.rss.footer >> my2.rss
+
 
