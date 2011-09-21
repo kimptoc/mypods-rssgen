@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+	<rss version="2.0">
+	<channel>
+		<title>MyPods</title>
+		<ttl>1</ttl>
+		<item>
+			<title>01301415.mp3</title>
+			<enclosure url="http://localhost/~kimptoc/mypods/01301415.mp3"  type="audio/mpeg"/>
+			</item>
+		<item>
+			<title>01291830.MP2</title>
+			<enclosure url="http://localhost/~kimptoc/mypods/01291830.MP2"  type="audio/mpeg"/>
+			</item>
+		</channel>
+	</rss>
