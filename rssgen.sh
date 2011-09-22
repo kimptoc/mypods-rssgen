@@ -1,3 +1,6 @@
+#!/bin/bash
+
+cd /home/kimptoc/public_html/radioshifted/scripts
 
 function writeRssPart()
 {
