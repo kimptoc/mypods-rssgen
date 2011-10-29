@@ -30,6 +30,8 @@ function writeRssPart()
 
 cd ../mypods/
 
+find . -ctime +30 -exec mv {} ../archives \;
+
 for FILE in *.mp3; do
   writeRssPart $FILE
 done
