@@ -59,3 +59,13 @@ for PART in *dio2*.rss; do
 done
 
 cat $SCRIPT_DIR/my.rss.footer >> my2.rss
+
+# ClassicFM rss
+
+cat $SCRIPT_DIR/my-classics.rss.header > my-classics.rss
+
+for PART in ClassicFM*.rss; do
+  cat $PART >> my-classics.rss
+done
+
+cat $SCRIPT_DIR/my.rss.footer >> my-classics.rss
