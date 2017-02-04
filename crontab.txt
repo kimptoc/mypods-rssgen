@@ -1,0 +1,13 @@
+#min    hour    mday    month   wday    command
+#5      08     *       *       *      sh /Users/family/Sites/radioshifted/scripts/gogogo.sh >/Users/family/Sites/radioshifted/scripts/gogogo.log 2>&1
+#0      18     *       *       *      sh /Users/family/Sites/radioshifted/scripts/gogogo.sh >/Users/family/Sites/radioshifted/scripts/gogogo.log 2>&1
+#30      19     *       *       *     sh /Users/family/Sites/radioshifted/scripts/gogogo.sh >/Users/family/Sites/radioshifted/scripts/gogogo.log 2>&1
+#30      0     *       *       *      sh /Users/family/Sites/radioshifted/scripts/gogogo.sh >/Users/family/Sites/radioshifted/scripts/gogogo.log 2>&1
+#55      *     *       *       *      sh /Users/family/Sites/box/radioshifted/scripts/rssgen.sh >/Users/family/Sites/box/radioshifted/scripts/rssgen.log 2>&1
+#hijacked
+10      17     *       *       1-5      sh /Users/family/Sites/box/hijacked/scripts/rssgen.sh >> /Users/family/Sites/box/hijacked/scripts/rssgen.log 2>&1
+10      19     *       *       1-5      sh /Users/family/Sites/box/hijacked/scripts/rssgen.sh >> /Users/family/Sites/box/hijacked/scripts/rssgen.log 2>&1
+40      22     *       *       1-5      sh /Users/family/Sites/box/hijacked/scripts/rssgen.sh >> /Users/family/Sites/box/hijacked/scripts/rssgen.log 2>&1
+40      23     *       *       1-5      sh /Users/family/Sites/box/hijacked/scripts/rssgen.sh >> /Users/family/Sites/box/hijacked/scripts/rssgen.log 2>&1
+10      19     *       *       6      sh /Users/family/Sites/box/hijacked/scripts/rssgen.sh >> /Users/family/Sites/box/hijacked/scripts/rssgen.log 2>&1
+10      22     *       *       6      sh /Users/family/Sites/box/hijacked/scripts/rssgen.sh >> /Users/family/Sites/box/hijacked/scripts/rssgen.log 2>&1
