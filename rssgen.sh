@@ -58,6 +58,10 @@ for PART in *dio2*.rss; do
   cat $PART >> my2.rss
 done
 
+for PART in *dioLondon*.rss; do
+  cat $PART >> my2.rss
+done
+
 cat $SCRIPT_DIR/my.rss.footer >> my2.rss
 
 # ClassicFM rss
