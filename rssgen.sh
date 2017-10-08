@@ -68,6 +68,10 @@ cat $SCRIPT_DIR/my.rss.footer >> my2.rss
 
 cat $SCRIPT_DIR/my-classics.rss.header > my-classics.rss
 
+for PART in Radio3*.rss; do
+  cat $PART >> my-classics.rss
+done
+
 for PART in ClassicFM*.rss; do
   cat $PART >> my-classics.rss
 done
