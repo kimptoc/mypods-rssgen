@@ -32,7 +32,8 @@ function writeRssPart()
 
 cd ../podcast
 
-find . -ctime +30 -exec mv {} archived \;
+find archived -ctime +120 -exec rm {} \;
+find . -ctime +60 -exec mv {} archived \;
 
 for FILE in *.mp3; do
   writeRssPart $FILE
