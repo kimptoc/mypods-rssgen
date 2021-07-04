@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "Running $0 at `date`"
+
 export SCRIPT_DIR=/Users/family/Sites/box/hijacked/scripts/
 
 cd $SCRIPT_DIR
@@ -33,7 +35,7 @@ function writeRssPart()
 cd ../podcast
 
 find archived -ctime +120 -exec rm {} \;
-find . -ctime +60 -exec mv {} archived \;
+find . -depth 1 -ctime +60 -exec mv {} archived \;
 
 for FILE in *.mp3; do
   writeRssPart $FILE
@@ -78,3 +80,7 @@ for PART in ClassicFM*.rss; do
 done
 
 cat $SCRIPT_DIR/my.rss.footer >> my-classics.rss
+
+
+echo "Finished running $0 at `date`"
+echo "."

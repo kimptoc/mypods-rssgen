@@ -5,4 +5,4 @@
 		<description>MyPod Funnies</description>
 		<link>http://home.kimptoc.net:8080/</link>
 		<ttl>1</ttl>
-<atom:link href="http://home.kimptoc.net:8080" rel="self" type="application/rss+xml" />
+<atom:link href="http://home.kimptoc.net:8080/hijacked/podcast/my.rss" rel="self" type="application/rss+xml" />
